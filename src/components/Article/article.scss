@@ -1,0 +1,33 @@
+.article {
+    margin-top: 60px;
+}
+
+.article-title {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.article-title__name {
+    margin: 0;
+    font-size: 1.8rem;
+    color: var(--main-secondary-color);
+    text-transform: uppercase;
+}
+
+.article-title__line {
+    height: 2px;
+    background-color: var(--main-primary-color);
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.article-title__quote {
+    margin: 0;
+    font-size: 1.4rem;
+    opacity: .5;
+    font-weight: 500;
+    margin-top: 10px;
+}

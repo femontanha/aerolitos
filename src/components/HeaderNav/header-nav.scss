@@ -1,0 +1,42 @@
+.header-nav {
+    flex: 1;
+    text-align: right;
+
+    @media (max-width: 850px) {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+.header-nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;  
+        margin-left: 30px;
+
+        @media (max-width: 850px) {
+            display: block;
+            margin-left: 0;
+            padding: 5px;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--main-text);
+        font-weight: 500;
+
+        &:hover,
+        &:active
+        &:focus {
+            color: var(--main-primary-color);
+        }
+    }
+}

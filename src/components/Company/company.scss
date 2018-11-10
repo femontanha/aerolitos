@@ -1,0 +1,24 @@
+.company {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+
+.company__feature {
+    text-align: center;
+    padding: 30px;
+
+    &:hover {
+        background-color: #f2f2f2;
+    }
+}
+
+.company__feature-title {
+    font-weight: 500;
+}
+
+.company__feature-description {
+    font-size: 1.4rem;
+}

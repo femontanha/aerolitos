@@ -1,0 +1,20 @@
+.banner {
+    height: 200px;
+    background-image: url('/img/banner.jpg');
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title {
+    margin: 0;
+    color: #FFF;
+}
+
+.banner-mod {
+    color: #FFF;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
