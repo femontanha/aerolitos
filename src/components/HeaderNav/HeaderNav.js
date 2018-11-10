@@ -1,29 +1,22 @@
 import React from 'react';
+import logo from './logo.png';
+import menuData from './menuData';
 import './header-nav.scss';
 
-export default () => (
+export default ({ onClick }) => (
     <nav className="header-nav">
-        <ul className="header-nav__list">
-            <li>
-                <a href="#Empresa">
-                    Empresa
-                </a>
-            </li>
-            <li>
-                <a href="#Clientes">
-                    Clientes
-                </a>
-            </li>
-            <li>
-                <a href="#Depoimentos">
-                    Depoimentos
-                </a>
-            </li>
-            <li>
-                <a href="#Orcamento">
-                    Faça um orçamento
-                </a>
-            </li>
-        </ul>
+        <img className="header-nav__logo" src={ logo } alt="Aerolitos" />
+        {
+            menuData.map(menu => (
+                <button
+                    className="header-nav__link"
+                    key={ menu.id }
+                    onClick={ onClick.bind(null, menu.id ) }
+                >
+                    { menu.name }
+                </button>
+                        
+            ))
+        }
     </nav>
 );

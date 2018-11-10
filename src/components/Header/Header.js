@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderNav from '../HeaderNav/HeaderNav';
 import logo from './logo.png';
 import './header.scss';
 
@@ -9,7 +8,6 @@ export default () => (
             <div className="header__logo">
                 <img src={ logo } alt={ 'Aerolitos' } />
             </div>
-            <HeaderNav />
         </div>
     </header>
 );

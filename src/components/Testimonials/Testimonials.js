@@ -8,7 +8,7 @@ export default () => (
         {
             testimonialsData.map(testimonial => {
                 return (
-                    <div className="testimonials__person">
+                    <div key={ testimonial.id } className="testimonials__person">
                         <img className="testimonials__person-img" src={`/img/${testimonial.image}`} alt={ testimonial.name } />
                         <div className="testimonials__person-profile">
                             <span className="testimonials__person-profile__podcast">

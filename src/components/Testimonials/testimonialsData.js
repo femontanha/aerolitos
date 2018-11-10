@@ -14,7 +14,7 @@ export default [
         image: 'kaio.jpg',
     },
     {
-        id: 1,
+        id: 2,
         name: 'Alfredo de Oliveira Jr.',
         podcast: 'CronoCast',
         text: 'O Léo, com o seu trabalho na Aerolitos, era na verdade o quarto participante do CronoCast. Suas intervenções, ideias, efeitos, enfim, toda a edição que ele realizou no CronoCast possibilitaram o programa existir e funcionar.',
