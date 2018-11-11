@@ -1,24 +1,45 @@
 .header {
-    padding: 15px;
-    border-bottom: #003333 2px solid;
-}
-
-.header-grid {
-    display: flex;
-    align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
-
-    @media (max-width: 850px) {
-        flex-direction: column;
-    }
+    background-image: url('/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 480px;
+    min-height: 200px;
+    background-color: var(--main-secondary-color);
+    position: relative;
 }
 
 .header__logo {
+    position: absolute;
     max-width: 300px;
+    left: 50%;
+    margin-left: -350px;
+    top: 20%;
 
     img {
         width: 100%;
         display: block;
+    }
+}
+
+.header__mood {
+    position: absolute;
+    max-width: 300px;
+    right: 50%;
+    margin-right: -350px;
+    top: 20%;
+
+    font-size: 5.5rem;
+    color: #FFF;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -15px;
+        width: 5px;
+        background-color: #FFF;
+        display: block;
+        height: 150px;
     }
 }

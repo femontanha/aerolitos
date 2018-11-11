@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HeaderNav from '../HeaderNav/HeaderNav';
+import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Banner from '../Banner/Banner';
 import Article from '../Article/Article';
 import Company from '../Company/Company';
 import Clients from '../Clients/Clients';
@@ -45,7 +45,7 @@ class App extends Component {
         <HeaderNav
           onClick={ this.handleNavClick }
         />
-        <Banner />
+        <Header />
         <Article
           ref={ this.companyRef }
           id="company"

@@ -4,10 +4,12 @@ import './header.scss';
 
 export default () => (
     <header className="header">
-        <div className="header-grid">
-            <div className="header__logo">
-                <img src={ logo } alt={ 'Aerolitos' } />
-            </div>
+        <div className="header__logo">
+            <img src={ logo } alt={ 'Aerolitos' } />
         </div>
+        <p className="header__mood">
+            edição<br />
+            podcast
+        </p>
     </header>
 );

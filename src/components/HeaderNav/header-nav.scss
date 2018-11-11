@@ -1,16 +1,11 @@
 .header-nav {
-    background-color: var(--main-secondary-color);
+    background-color: rgba(0, 0, 0, .7);
     text-align: center;
     padding: 15px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
-}
-
-.header-nav__logo {
-    max-width: 250px;
-    display: block;
-    margin: 0 auto 15px;
+    width: 100%;
 }
 
 .header-nav__link {
