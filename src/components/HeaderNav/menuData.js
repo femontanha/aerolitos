@@ -11,8 +11,8 @@ export default [
         id: 'testimonials',
         name: 'Depoimentos',
     },
-    // {
-    //     id: 'contact',
-    //     name: 'Faça um orçamento',
-    // },
+    {
+        id: 'contact',
+        name: 'Faça um orçamento',
+    },
 ];

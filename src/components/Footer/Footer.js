@@ -8,7 +8,7 @@ export default () => (
     <footer className="footer">
         <div className="footer-grid">
             Feito com 
-            <span class="footer-love"><FontAwesomeIcon icon={ faHeart } /></span>
+            <span className="footer-love"><FontAwesomeIcon icon={ faHeart } /></span>
             por -
             <a href="https://github.com/femontanha" className="footer-author">femontanha</a>
             <a href="https://twitter.com/leobruski" className="footer-social">

@@ -15,6 +15,7 @@ class App extends PureComponent {
     this.companyRef = React.createRef();
     this.clientsRef = React.createRef();
     this.testimonialsRef = React.createRef();
+    this.contactRef = React.createRef();
   }
 
   handleNavClick = (id) => {
@@ -27,6 +28,9 @@ class App extends PureComponent {
         break;
       case this.testimonialsRef.current.props.id:
         this.scrollToView(this.testimonialsRef.current.articleRef.current);
+        break;
+      case this.contactRef.current.props.id:
+        this.scrollToView(this.contactRef.current.articleRef.current);
         break;
       default:
         // default;
