@@ -10,3 +10,29 @@
     margin: 0 auto;
     color: #FFF;
 }
+
+.footer-love {
+    color: #dc1f45;
+    margin: 0 10px;
+}
+
+.footer-author {
+    color: #FFF;
+    margin-left: 5px;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--main-primary-color);
+        text-decoration: underline;
+    }
+}
+
+.footer-social {
+    color: #FFF;
+    margin-left: 15px;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--main-primary-color);
+    }
+}
