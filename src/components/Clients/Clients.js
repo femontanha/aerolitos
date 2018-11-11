@@ -12,8 +12,10 @@ export default () => (
                         href={ client.url }
                         key={ client.id }
                         className="client__feature"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        <img src={`/img/${client.image}`} alt={ client.name } />
+                        <img className="client__feature-img" src={`/img/clients/${client.image}`} alt={ client.name } />
 
                         <div className="client__feature-overlay">
                             <p className="client__feature-name">

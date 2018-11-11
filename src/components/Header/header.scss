@@ -7,6 +7,10 @@
     min-height: 200px;
     background-color: var(--main-secondary-color);
     position: relative;
+
+    @media (max-width: 700px) {
+        height: 200px;
+    }
 }
 
 .header__logo {
@@ -20,6 +24,12 @@
         width: 100%;
         display: block;
     }
+
+    @media (max-width: 700px) {
+        position: relative;
+        top: 50%;
+        margin-left: -150px;
+    }
 }
 
 .header__mood {
@@ -28,9 +38,12 @@
     right: 50%;
     margin-right: -350px;
     top: 20%;
-
     font-size: 5.5rem;
     color: #FFF;
+
+    @media (max-width: 700px) {
+        display: none;
+    }
 
     &:before {
         content: "";

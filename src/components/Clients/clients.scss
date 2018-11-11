@@ -1,25 +1,52 @@
 .clients {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 30px;
     max-width: 900px;
     margin: 30px auto 0;
+    padding: 30px;
+    justify-content: space-evenly;
 }
 
 .client__feature {
-    border: #f2f2f2 1px solid;
     text-align: center;
     position: relative;
+    overflow: hidden;
+
+    &:hover {
+        .client__feature-overlay {
+            bottom: 0;
+            opacity: 1;
+        }
+
+        .client__feature-img {
+            -webkit-filter: none;
+            -webkit-filter: none;
+            filter: none;
+            filter: none;
+        }
+    }
+}
+
+.client__feature-img {
+    max-width: 100px;
+    -webkit-filter: grayscale(1);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	filter: grayscale(100%);
 }
 
 .client__feature-overlay {
+    transition: all .3s ease;
     position: absolute;
-    bottom: 0;
-    background-color: rgba($color: #05b1a9, $alpha: .8);
+    bottom: -100px;
+    background-color: rgba($color: #000, $alpha: .8);
     width: 100%;
+    opacity: 0;
 }
 
 .client__feature-name {
     color: #FFF;
     font-weight: 500;
+    font-size: 1.2rem;
 }
