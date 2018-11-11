@@ -59,6 +59,7 @@ class App extends Component {
           name={ 'Clientes & Parceiros' }
           quote={ 'Podosfera' }
           children={ <Clients /> }
+          theme="dark"
         />
         <Article
           ref={ this.testimonialsRef }

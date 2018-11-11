@@ -2,6 +2,11 @@
     margin-top: 60px;
 }
 
+.article--dark {
+    background-color: var(--main-secondary-color);
+    padding: 60px 0;
+}
+
 .article-title {
     text-align: center;
     max-width: 300px;
@@ -13,6 +18,10 @@
     font-size: 1.8rem;
     color: var(--main-secondary-color);
     text-transform: uppercase;
+
+    .article-title--dark & {
+        color: #FFF;
+    }
 }
 
 .article-title__line {
@@ -29,5 +38,10 @@
     font-size: 1.4rem;
     opacity: .5;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 5px;
+
+    .article-title--dark & {
+        color: #FFF;
+        opacity: 1;
+    }
 }
