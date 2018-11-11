@@ -20,4 +20,11 @@ export default [
         text: 'O Léo, com o seu trabalho na Aerolitos, era na verdade o quarto participante do CronoCast. Suas intervenções, ideias, efeitos, enfim, toda a edição que ele realizou no CronoCast possibilitaram o programa existir e funcionar.',
         image: 'alfredo.jpg',
     },
+    {
+        id: 3,
+        name: 'Fellipe Azambuja (Montanha)',
+        podcast: 'DEVNAESTRADA',
+        text: 'O Aerolitos foi uma das melhores coisas que aconteceu para o DEVNAESTRADA. Após a entrada do Leo na nossa edição, o podcast subiu um level de profissionalismo inacreditável e com isso, passamos a tomar muito mais conta do conteúdo, deixando toda a excelência da edição nas mãos desse grande profissional.',
+        image: 'fellipe.jpg',
+    },
 ];
