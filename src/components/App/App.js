@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import HeaderNav from '../HeaderNav/HeaderNav';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -6,9 +6,10 @@ import Article from '../Article/Article';
 import Company from '../Company/Company';
 import Clients from '../Clients/Clients';
 import Testimonials from '../Testimonials/Testimonials';
+import Contact from '../Contact/Contact';
 import './app.scss';
 
-class App extends Component {
+class App extends PureComponent {
   constructor(props) {
     super(props);
     this.companyRef = React.createRef();
@@ -67,6 +68,13 @@ class App extends Component {
           name={ 'Depoimentos' }
           quote={ 'Grandes amigos, clientes e parceiros' }
           children={ <Testimonials /> }
+        />
+        <Article
+          ref={ this.contactRef }
+          id="contact"
+          name={ 'Contato' }
+          quote={ 'Entre em contato conosco' }
+          children={ <Contact /> }
         />
         <Footer />
       </main>

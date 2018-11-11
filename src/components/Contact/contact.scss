@@ -1,0 +1,32 @@
+.contact {
+    max-width: 500px;
+    margin: 30px auto 0;
+    padding: 30px;
+}
+
+.form__input,
+.form__message {
+    width: 500px;
+    margin-top: 15px;
+    display: block;
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: #ccc 1px solid;
+    }
+}
+
+.form__btn {
+    background-color: var(--main-primary-color);
+    border: 0 none;
+    color: #FFF;
+    padding: 10px 15px;
+    
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px auto 0;
+    display: block;
+}
