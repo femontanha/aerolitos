@@ -13,6 +13,6 @@ export default [
     },
     {
         id: 'contact',
-        name: 'Faça um orçamento',
+        name: 'Contato',
     },
 ];

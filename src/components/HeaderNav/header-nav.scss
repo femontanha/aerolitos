@@ -21,6 +21,11 @@
     cursor: pointer;
     outline: none;
 
+    @media (max-width: 700px) {
+        display: block;
+        margin: 0 auto;
+    }
+
     &:before {
         transition: .5s all ease;
         position: absolute;
@@ -31,6 +36,10 @@
         content: "";
         height: 2px;
         background-color: var(--main-primary-color);
+
+        @media (max-width: 700px) {
+            display: none;
+        }
     }
 
     &:hover,
@@ -48,4 +57,8 @@
 
 .header-nav__link:not(:last-child) {
     margin-right: 30px;
+
+    @media (max-width: 700px) {
+        margin-right: auto;
+    }
 }

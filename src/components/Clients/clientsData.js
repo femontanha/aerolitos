@@ -81,6 +81,12 @@ export default [
     },
     {
         id: 13,
+        name: 'Papricast',
+        url: 'http://paprica.org/',
+        image: 'papricast.jpg',
+    },
+    {
+        id: 14,
         name: 'Supera',
         url: 'http://www.superafarma.com.br/',
         image: 'superafarma.jpg',

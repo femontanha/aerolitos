@@ -14,7 +14,7 @@ export default () => (
             <a href="https://twitter.com/leobruski" className="footer-social">
                 <FontAwesomeIcon icon={ faTwitter } />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5547999464695&text=Ol%C3%A1,%20gostaria%20de%20conversar%20sobre%20o%20meu%20podcast" className="footer-social">
+            <a href="http://bit.ly/WhatsappAerolitos" className="footer-social">
                 <FontAwesomeIcon icon={ faWhatsapp } />
             </a>
             <a href="https://www.facebook.com/AerolitosPodcast/" className="footer-social">

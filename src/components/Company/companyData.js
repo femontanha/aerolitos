@@ -2,8 +2,8 @@ export default [
     {
       id: 0,
       icon: '',
-      title: 'Ediçao de Podcast',
-      description: 'Tercerizando sua ediçao, você terá mais tempo para gravar e produzir mais conteúdo para os seus ouvintes.',
+      title: 'Edição de Podcast',
+      description: 'Tercerizando sua edição, você terá mais tempo para gravar e produzir mais conteúdo para os seus ouvintes.',
     },
     {
       id: 1,

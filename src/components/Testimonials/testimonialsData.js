@@ -27,4 +27,11 @@ export default [
         text: 'O Aerolitos foi uma das melhores coisas que aconteceu para o DEVNAESTRADA. Após a entrada do Leo na nossa edição, o podcast subiu um level de profissionalismo inacreditável e com isso, passamos a tomar muito mais conta do conteúdo, deixando toda a excelência da edição nas mãos desse grande profissional.',
         image: 'fellipe.jpg',
     },
+    {
+        id: 4,
+        name: 'Luiz Gonçalves',
+        podcast: 'PodTag',
+        text: 'A Aerolitos representa para nós uma verdadeira parceira na podosfera, eliminando nosso principal gargalo que era a edição. Através da qualidade ímpar, a Aerolitos nos ajudou a definir uma identidade única no podTag. Sem dúvidas, a Aerolitos se destaca frente aos concorrentes.',
+        image: 'luiz.jpg',
+    },
 ];

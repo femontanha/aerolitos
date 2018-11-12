@@ -18,22 +18,11 @@
             bottom: 0;
             opacity: 1;
         }
-
-        .client__feature-img {
-            -webkit-filter: none;
-            -webkit-filter: none;
-            filter: none;
-            filter: none;
-        }
     }
 }
 
 .client__feature-img {
     max-width: 100px;
-    -webkit-filter: grayscale(1);
-	-webkit-filter: grayscale(100%);
-	filter: gray;
-	filter: grayscale(100%);
 }
 
 .client__feature-overlay {
