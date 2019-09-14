@@ -1,4 +1,6 @@
 import React, { PureComponent } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import HeaderNav from '../HeaderNav/HeaderNav';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -81,6 +83,10 @@ class App extends PureComponent {
           children={ <Contact /> }
         />
         <Footer />
+        <a href="http://bit.ly/WhatsappAerolitosNovo" title="Whatsapp" class="whatsapp-btn">
+          <FontAwesomeIcon icon={ faWhatsapp } />
+          <span className="whatsapp-btn__text">Chama no Whats</span>
+        </a>
       </main>
     );
   }

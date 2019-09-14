@@ -22,6 +22,25 @@
   color: #61dafb;
 }
 
+.whatsapp-btn {
+  background-color: #34af23;
+  bottom: 15px;
+  color: #FFF;
+  display: block;
+  min-width: 200px;
+  padding: 15px 0;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+.whatsapp-btn__text {
+  margin-left: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
