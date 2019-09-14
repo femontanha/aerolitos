@@ -41,6 +41,22 @@
   margin-left: 10px;
 }
 
+.instagram-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 30px;
+  max-width: 900px;
+  margin: 30px auto 0;
+  padding: 30px;
+  justify-content: space-evenly;
+
+  .igf-caption,
+  .igf-like,
+  .igf-comment {
+    display: none;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

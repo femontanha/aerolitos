@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import ReactInstagramFeed from 'react-instagram-feed';
 import HeaderNav from '../HeaderNav/HeaderNav';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -17,6 +18,7 @@ class App extends PureComponent {
     this.companyRef = React.createRef();
     this.clientsRef = React.createRef();
     this.testimonialsRef = React.createRef();
+    this.instagramRef = React.createRef();
     this.contactRef = React.createRef();
   }
 
@@ -76,6 +78,25 @@ class App extends PureComponent {
           children={ <Testimonials /> }
         />
         <Article
+          ref={ this.instagramRef }
+          id="instagram"
+          name={ 'Instragram' }
+          quote={ 'Ei, segue lá @aerolitos_ei' }
+          children={
+            <ReactInstagramFeed
+              className="instagram-feed"
+              accessToken="7332816628.d1f2495.265944c38d904951875c5c60a6a78cd1"
+              count={10}
+              type="user"
+              param="self"
+              resolution="thumbnail"
+              hasLink
+              showButton={ false }
+            />
+          }
+          theme="dark"
+        />
+        <Article
           ref={ this.contactRef }
           id="contact"
           name={ 'Contato' }
@@ -83,7 +104,7 @@ class App extends PureComponent {
           children={ <Contact /> }
         />
         <Footer />
-        <a href="http://bit.ly/WhatsappAerolitosNovo" title="Whatsapp" class="whatsapp-btn">
+        <a href="http://bit.ly/WhatsappAerolitosNovo" title="Whatsapp" className="whatsapp-btn">
           <FontAwesomeIcon icon={ faWhatsapp } />
           <span className="whatsapp-btn__text">Chama no Whats</span>
         </a>

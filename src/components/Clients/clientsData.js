@@ -3,8 +3,8 @@
 export default [
     {
         id: 0,
-        name: 'SignaCast',
-        url: 'https://www.signativa.com.br/',
+        name: 'StartSe',
+        url: 'https://www.startse.com/',
         image: 'signacast.jpg',
     },
     {
@@ -89,6 +89,54 @@ export default [
         id: 14,
         name: 'Supera',
         url: 'http://www.superafarma.com.br/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 15,
+        name: 'Clinical Papers Podcast',
+        url: 'http://www.clinicalpaperspodcast.com.br/podcasts/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 16,
+        name: 'E-DublinCast',
+        url: 'https://www.e-dublin.com.br/tag/e-dublincast/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 17,
+        name: 'ElaPod - Fernanda Ponzeto',
+        url: 'https://open.spotify.com/episode/5Dk15WT3hH1Z4jaWZNU03W',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 18,
+        name: 'Revista HSM - Podcast eXtraCast',
+        url: 'https://www.revistahsm.com.br/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 19,
+        name: 'InfieldCast',
+        url: 'http://infieldcast.com.br/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 20,
+        name: 'PapoAgro Podcast',
+        url: 'https://open.spotify.com/show/4d8r1zgRllGYmwJ0wnTSvM',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 21,
+        name: 'Podcasts Mzero',
+        url: 'https://mzero.net.br/',
+        image: 'superafarma.jpg',
+    },
+    {
+        id: 22,
+        name: 'Geekonimics',
+        url: 'https://geekonomics.com.br/category/podcast/',
         image: 'superafarma.jpg',
     },
 ];
