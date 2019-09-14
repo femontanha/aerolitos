@@ -17,7 +17,7 @@ export default () => (
             <a href="http://bit.ly/WhatsappAerolitosNovo" className="footer-social">
                 <FontAwesomeIcon icon={ faWhatsapp } />
             </a>
-            <a href="https://www.facebook.com/AerolitosPodcast/" className="footer-social">
+            <a href="https://www.facebook.com/aerolitosedicaointeligente/" className="footer-social">
                 <FontAwesomeIcon icon={ faFacebook } />
             </a>
         </div>
