@@ -21,8 +21,8 @@ export default [
     },
     {
         id: 3,
-        name: 'Franklin Covey Brasil -> Podcast "Tem 1 Minuto" ?',
-        url: 'https://www.instagram.com/p/B2Pz_e7hPpx/?igshid=19qd1vfnagn75',
+        name: 'Franklin Covey Brasil',
+        url: 'https://franklincovey.com.br/',
         image: 'tem1minuto.jpg',
     },
     {
