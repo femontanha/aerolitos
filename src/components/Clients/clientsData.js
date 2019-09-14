@@ -21,9 +21,9 @@ export default [
     },
     {
         id: 3,
-        name: 'Coffea',
-        url: 'http://portalcoffea.com/',
-        image: 'coffea.jpg',
+        name: 'Franklin Covey Brasil -> Podcast "Tem 1 Minuto" ?',
+        url: 'https://www.instagram.com/p/B2Pz_e7hPpx/?igshid=19qd1vfnagn75',
+        image: 'tem1minuto.jpg',
     },
     {
         id: 4,
@@ -131,7 +131,7 @@ export default [
         id: 21,
         name: 'Podcasts Mzero',
         url: 'https://mzero.net.br/',
-        image: 'aerolitos.jpg',
+        image: 'mzero.jpg',
     },
     {
         id: 22,
