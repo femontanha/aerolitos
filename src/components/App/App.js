@@ -104,7 +104,7 @@ class App extends PureComponent {
           children={ <Contact /> }
         />
         <Footer />
-        <a href="http://bit.ly/WhatsappAerolitosNovo" title="Whatsapp" className="whatsapp-btn">
+        <a href="http://bit.ly/WhatsappAerolitos" title="Whatsapp" className="whatsapp-btn">
           <FontAwesomeIcon icon={ faWhatsapp } />
           <span className="whatsapp-btn__text">Chama no Whats</span>
         </a>
