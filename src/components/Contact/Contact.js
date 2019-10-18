@@ -6,8 +6,7 @@ export default () => (
         <p className="contact__text">
             Entre em contato conosco utilizando o formulário abaixo, ou <a href="http://bit.ly/WhatsappAerolitos" className="contact__text-link" target="_blank" rel="noopener noreferrer">clique aqui</a> para falar diretamente pelo Whatsapp, ou se preferir pode mandar um email direto para <a href="mailto:contato@aerolitos.com.br" className="contact__text-link"> contato@aerolitos.com.br</a>.
         </p>
-        {/* <form className="form" action="https://formspree.io/contato@aerolitos.com.br" method="POST"> */}
-        <form className="form" action="https://formspree.io/femontanhanew@gmail.com" method="POST">
+        <form className="form" action="https://formspree.io/contato@aerolitos.com.br" method="POST">
             <label htmlFor="name" className="form__input">
                 <input id="name" type="text" name="name" required placeholder="Nome" />
             </label>
