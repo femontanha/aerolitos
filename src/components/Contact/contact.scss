@@ -22,16 +22,28 @@
 }
 
 .form__input,
-.form__message {
+.form__message,
+.form__select {
     max-width: 500px;
     margin-top: 15px;
     display: block;
 
     input,
-    textarea {
+    textarea,
+    select {
         width: 100%;
         padding: 10px;
         border: #ccc 1px solid;
+    }
+
+    select {
+        font-size: 1.4rem;
+        opacity: .6;
+    }
+
+    .select__title {
+        font-size: 1.4rem;
+        opacity: .6;
     }
 }
 
