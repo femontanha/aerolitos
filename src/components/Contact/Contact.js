@@ -13,7 +13,7 @@ export default () => (
             <label htmlFor="email" className="form__input">
                 <input id="email" type="email" name="_replyto" required placeholder="E-mail" />
             </label>
-            <label htmlFor="podcast-name" className="form__input">
+            {/* <label htmlFor="podcast-name" className="form__input">
                 <input id="podcast-name" type="text" name="podcast-name" required placeholder="Nome do Podcast" />
             </label>
             <label htmlFor="podcast-theme" className="form__input">
@@ -49,7 +49,7 @@ export default () => (
                     <option>5</option>
                     <option>6</option>
                 </select>
-            </label>
+            </label> */}
             <label htmlFor="message" className="form__message">
                 <textarea id="message" name="message" required placeholder="Escreva sua mensagem"></textarea>
             </label>
